@@ -127,3 +127,21 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+fb_data
+dp-env/
+convo_graphs/
+
+ig_data
+*.pickle
+*.png
+*.svg
+*.csv
+*.json
+maps/nsw_locality_polygon_shp.zip
+maps/nswlocalitypolygonshp.zip
+maps/NSW_LOCALITY_POLYGON_shp/NSW_LOCALITY_POLYGON_shp.dbf
+maps/NSW_LOCALITY_POLYGON_shp/NSW_LOCALITY_POLYGON_shp.prj
+maps/NSW_LOCALITY_POLYGON_shp/NSW_LOCALITY_POLYGON_shp.qpj
+maps/NSW_LOCALITY_POLYGON_shp/NSW_LOCALITY_POLYGON_shp.shp
+maps/NSW_LOCALITY_POLYGON_shp/NSW_LOCALITY_POLYGON_shp.shx
