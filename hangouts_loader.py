@@ -8,7 +8,7 @@ import datetime
 def get_participants(conv):
     participants = {}
     for p in conv["conversation"]["participant_data"]:
-        name = p.get("fallback_name", "unknown")
+        name = p.get("fallback_name", "no_name_" + p["id"]["gaia_id"] + "hangouts")
         pid = p["id"]["gaia_id"]
         participants[pid] = name
     return participants
